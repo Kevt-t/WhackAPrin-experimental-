@@ -1,0 +1,15 @@
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.mole {
+    background-color: brown;
+}
